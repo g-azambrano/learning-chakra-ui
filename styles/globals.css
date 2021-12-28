@@ -14,3 +14,93 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Graphik";
+  font-display: block;
+  src: url("/fonts/Graphik-Regular.woff2") format("woff2"),
+    url("/fonts/Graphik-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-display: block;
+  src: url("/fonts/Graphik-Bold.woff2") format("woff2"),
+    url("/fonts/Graphik-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-display: block;
+  src: url("/fonts/Graphik-RegularItalic.woff2") format("woff2"),
+    url("/fonts/Graphik-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-display: block;
+  src: url("/fonts/Graphik-Semibold.woff2") format("woff2"),
+    url("/fonts/Graphik-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-display: block;
+  src: url("/fonts/Graphik-SemiboldItalic.woff2") format("woff2"),
+    url("/fonts/Graphik-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-display: block;
+  src: url("/fonts/Graphik-BoldItalic.woff2") format("woff2"),
+    url("/fonts/Graphik-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Honey Bold Banner";
+  src: url("/fonts/Graphik-Regular.woff2") format("woff2"),
+    url("/fonts/Graphik-Regular.woff") format("woff");
+  font-display: block;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Honey Bold Banner";
+  font-display: block;
+  src: url("/fonts/Honey-BoldBanner.woff2") format("woff2"),
+    url("/fonts/Honey-BoldBanner.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Honey Bold Banner";
+  font-display: block;
+  src: url("/fonts/Honey-ExtraboldBanner.woff2") format("woff2"),
+    url("/fonts/Honey-ExtraboldBanner.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Intercom Brand";
+  font-display: block;
+  src: url("/fonts/IntercomBrand-Medium.woff2") format("woff2"),
+    url("/fonts/IntercomBrand-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
