@@ -5,14 +5,14 @@ import {
   HStack,
   Text,
   VStack,
-  Image,
   Link,
+  Stack,
 } from "@chakra-ui/react";
 import ArrowIcon from "./arrow.svg";
 
 export const Hero = () => {
   return (
-    <VStack spacing="4">
+    <VStack spacing={[2, 4]} textAlign="center">
       <Heading
         fontSize="md"
         fontWeight="light"
@@ -22,21 +22,21 @@ export const Hero = () => {
       >
         Intercom For Marketing
       </Heading>
-      <Heading fontSize="6xl" as="h1" fontFamily="Honey Bold Banner">
+      <Heading
+        fontSize={["4xl", "6xl"]}
+        w={["min", "unset"]}
+        as="h1"
+        fontFamily="Honey Bold Banner"
+      >
         Drive holistic growth
       </Heading>
       <Container maxW="container.md">
-        <Text
-          textAlign="center"
-          fontSize="26px"
-          fontWeight="400"
-          fontFamily="Graphik"
-        >
+        <Text fontSize={["16px", "26px"]} fontWeight="400" fontFamily="Graphik">
           Increase conversions, prove product value and strengthen customer
           relationships at every step.
         </Text>
       </Container>
-      <HStack>
+      <Stack direction={["column", "row"]} spacing={[2, 4]}>
         <Button
           size="lg"
           variant="link"
@@ -58,12 +58,21 @@ export const Hero = () => {
         >
           Learn more
         </Button>
-      </HStack>
-      <HStack>
+      </Stack>
+      <HStack pt={2}>
         <Text fontSize="13px" fontFamily="Graphik">
           Already using intercom?
         </Text>
-        <Link fontSize="13px" fontFamily="Graphik" borderBottom="1px solid">
+        <Link
+          fontSize="13px"
+          fontFamily="Graphik"
+          borderBottom="1px solid"
+          sx={{
+            "&:hover": {
+              textDecoration: "none",
+            },
+          }}
+        >
           Sign in
         </Link>
       </HStack>
