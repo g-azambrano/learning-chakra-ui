@@ -42,6 +42,7 @@ export const Hero = () => {
           variant="link"
           py="4"
           px="6"
+          colorScheme="black"
           rightIcon={<ArrowIcon />}
           fontFamily="Graphik"
         >
@@ -50,11 +51,18 @@ export const Hero = () => {
         <Button
           size="lg"
           borderRadius="25px"
-          colorScheme="blackAlpha"
+          bgColor="black"
+          color="white"
           py="4"
           px="6"
           rightIcon={<ArrowIcon />}
           fontFamily="Graphik"
+          _hover={{
+            textDecoration: "underline",
+            outlineColor: "black",
+            color: "black",
+            bg: "white",
+          }}
         >
           Learn more
         </Button>
