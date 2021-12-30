@@ -23,12 +23,12 @@ export const theme = extendTheme({
     Button: {
       variants: {
         primary: {
-          size: "lg",
-          borderRadius: "25px",
+          borderRadius: "30px",
           bgColor: "black",
+          fontWeight: "bold",
           color: "white",
-          py: "4",
-          px: "6",
+          py: "6",
+          px: "8",
           _hover: {
             textDecoration: "underline",
             outlineColor: "black",
